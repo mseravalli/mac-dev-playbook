@@ -1,0 +1,35 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: yes
+configure_sudoers: no
+configure_terminal: no
+configure_osx: no
+
+dotfiles_repo: https://github.com/mseravalli/dotfiles.git
+dotfiles_files:
+  - .zshrc
+  - .vimrc
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - autoconf
+  - git
+  - gpg
+  - iperf
+  - wget
+  - python3
+  - vim
+  - terraform
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - sublime-text
+  - iterm2
+  - firefox
+
+
