@@ -34,6 +34,7 @@ homebrew_cask_apps:
   - iterm2
   - firefox
   - minikube
+  - java
   - virtualbox
 
 pip_packages:
