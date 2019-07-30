@@ -18,9 +18,11 @@ homebrew_installed_packages:
   - gpg
   - iperf
   - wget
+  - python
   - python3
   - vim
   - terraform
+  - go
 
 homebrew_taps:
   - homebrew/core
@@ -31,5 +33,9 @@ homebrew_cask_apps:
   - sublime-text
   - iterm2
   - firefox
+  - minikube
+  - virtualbox
 
+pip_packages:
+  - virtualenv
 
